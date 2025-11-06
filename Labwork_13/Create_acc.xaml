@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Labwork_13.Create_acc"
+             Title="Create Accident"
+                >
+    <VerticalStackLayout >
+        <Label 
+            Text="Address"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Entry x:Name="addr" TextColor="White"/>
+
+        <Label 
+        Text="Type"
+        VerticalOptions="Center" 
+        HorizontalOptions="Center" />
+
+        <Entry x:Name="ty" Placeholder="" />
+        
+        <Label 
+        Text="State"
+        VerticalOptions="Center" 
+        HorizontalOptions="Center" />
+
+        <Entry x:Name="sta" Placeholder="" />
+
+        <Button Text="Create" Clicked="Cre"/>        
+
+        <Button Text="Back" Clicked="Bac"/>
+
+
+
+    </VerticalStackLayout>
+</ContentPage>

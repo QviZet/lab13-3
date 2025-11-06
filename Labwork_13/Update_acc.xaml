@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Labwork_13.Update_acc"
+             Title="Update">
+    <VerticalStackLayout>
+        <Label 
+        Text="Address"
+        VerticalOptions="Center" 
+        HorizontalOptions="Center" />
+
+        <Entry x:Name="addr" TextColor="White"/>
+
+        <Label 
+        Text="Type"
+        VerticalOptions="Center" 
+        HorizontalOptions="Center" />
+
+        <Entry x:Name="ty" Placeholder="" />
+
+        <Label 
+        Text="State"
+        VerticalOptions="Center" 
+        HorizontalOptions="Center" />
+
+        <Entry x:Name="sta" Placeholder="" />
+
+        <Button Text="Update" Clicked="Upd"/>
+
+        <Button Text="Delete" Clicked="Del"/>
+
+        <Button Text="Back" Clicked="Bac"/>
+
+
+
+    </VerticalStackLayout>
+</ContentPage>
