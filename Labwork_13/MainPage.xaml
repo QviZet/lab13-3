@@ -12,17 +12,17 @@
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
             <Button
-                x:Name="Accidents_page"
+                x:Name="Customers"
                 Text="Accidents" 
                 Clicked="OnAccidentClicked"
                 HorizontalOptions="Fill" />
             <Button
-                x:Name="employees_page"
+                x:Name="Districts"
                 Text="Employees" 
                 Clicked="OnEmployeeClicked"
                 HorizontalOptions="Fill" />
             <Button
-                x:Name="equipment_page"
+                x:Name="Tarifs"
                 Text="Accessible equipment" 
                 Clicked="OnEquipmentClicked"
                 HorizontalOptions="Fill" />

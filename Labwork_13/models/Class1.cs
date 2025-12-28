@@ -45,7 +45,7 @@ namespace Labwork_13.models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            object value = optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=Lab_12_MES_BD;Username=postgres;Password=;");
+            object value = optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=lab_12_mes_bd;Username=postgres;Password=Full;");
         }
 
     }
